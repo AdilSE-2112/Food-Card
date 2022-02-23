@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AituCoins</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Roboto:300&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="coins.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="coins.js"></script>
+    <script src="https://kit.fontawesome.com/ae4df08caf.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+           <input type="checkbox" id="check">
+           <label for="check">
+           <i class="fas fa-bars" id="btn"></i>
+           <i class="fas fa-times" id="cancel"></i>
+           </label>
+           <a href="#index.html"><img src="https://astanait.edu.kz/wp-content/uploads/2020/05/aitu-logo-2-600x315.png" width="30%" height="40%" alt=""></a>
+         <ul>
+              <li><a href="first.html">First</a></li>
+              <li><a href="second.html">Second</a></li>
+              <li><a href="drinks.html">Drink</a></li>
+              <li><a href="coins.html">Cart</a></li>
+              <li><button class="button" type="button"><a href="login.html">Log Out</button></a></li>
+           </ul>
+        </nav>
+  </header>
+    <div class="wrapper">
+      <div class="container">
+        <i class="fa-solid fa-dice"></i>
+        <span class="num">0</span>
+        <span class="text">AituCoins</span>
+      </div>
+    </div>
+    <button onclick="numberGenerator()" class="rollButton">Roll</button>
+    <p id="demo"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
